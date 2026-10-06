@@ -1,0 +1,39 @@
+{
+  "version": "0.6.0-rc.3",
+  "channel": "edge",
+  "published": "2026-10-06T07:36:40Z",
+  "upgradeFrom": "0.4.0",
+  "rollbackSafe": true,
+  "kubernetes": {
+    "pinned": "v1.37.1+k3s1",
+    "supported": [
+      "1.36",
+      "1.37"
+    ]
+  },
+  "components": {
+    "helm": "v4.3.0",
+    "cilium": "1.20.2",
+    "certManager": "v1.21.2",
+    "gatewayApi": "v1.6.2",
+    "traefikChart": "41.6.1",
+    "vmStackChart": "0.95.0",
+    "vlogsChart": "0.13.10",
+    "hetznerWebhookChart": "0.9.0",
+    "hcloudCcmChart": "1.38.0",
+    "hcloudCsiChart": "2.23.0",
+    "zot": "v2.1.21",
+    "buildkit": "v0.33.1",
+    "railpack": "v0.40.1",
+    "systemUpgradeController": "v0.20.2",
+    "velero": "v1.18.4",
+    "veleroChart": "12.2.0",
+    "veleroPluginAws": "v1.14.4"
+  },
+  "image": "ghcr.io/ehilzinger/kwerft@sha256:bb76b6897c962f1f8f9b5dbaa04ed9ae72b19c42ad2afab0bc20baff8d2549b2",
+  "chart": {
+    "ref": "oci://ghcr.io/ehilzinger/charts/kwerft",
+    "version": "0.6.0-rc.3",
+    "digest": "sha256:718e3d305f054d7069c0a29566ef506f842c5b394554b8a9ff193a791269a2e0"
+  }
+}
