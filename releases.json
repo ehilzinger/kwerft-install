@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.6.0-rc.9",
+    "channel": "edge",
+    "published": "2026-10-06T10:53:48Z"
+  },
+  {
     "version": "0.6.0-rc.8",
     "channel": "edge",
     "published": "2026-10-06T10:40:10Z"
